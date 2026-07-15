@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>HTML tables</title>
+    <title>HTML tables</title>
 </head>
 <body>
 
@@ -14,17 +14,48 @@
         td: table data 
     </p>
     <table border="1">
+        <caption>Monthly savings</caption>
         <tr>
             <th>Month</th>
             <th>Savings</th>
         </tr>
         <tr>
             <td>January</td>
-            <td>40000</td>
+            <td>140000</td>
         </tr>
         <tr>
             <td>February</td>
-            <td>45000</td>
+            <td>150000</td>
         </tr>
+   </table>
+
+   <table>
+    <table border="1">
+    <caption>Sales data</caption>
+    <thead>
+        <tr>
+            <th>Month</th>
+            <th>Sales</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>January</td>
+            <td>60000</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>70000</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Total</td>
+            <td>130000</td>
+        </tr>
+    </tfoot>
+   </table> 
+        
+            
 </body>
 </html>
