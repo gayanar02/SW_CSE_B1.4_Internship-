@@ -8,13 +8,13 @@
 <body>
     <p>Video tag</p>
     <!-- Video format: mp4/webM/ogg -->
-    <!--video src="sample-5s-360p.mp4" controls>
+    <video src="sample-5s-360p.mp4" controls>
         your browser does not support the video tag.
-    </video>-->
+    </video>
 
-    <!--video src="sample-5s-360p.webm">
+    <video src="sample-5s-360p.webm">
         your browser does not support the video tag.
-    </video-->
+    </video>
     <!--w/o controls the video appears but the user cannot play it.
     Javascript can start playing the video-->
 
@@ -29,12 +29,26 @@
     </video>
 
     <!--muted-->
-    <video src="sample-5s-360p.mp4"  controls muted>
+    <video src="sample-5s-360p.mp4"  width="880" height="520" controls muted>
         your browser does not support the video tag.
     </video>
 
     <!--loop-->
-    <video src="sample-5s-360p.mp4" controls loop>
+    <video src="sample-5s-360p.mp4" width="880" height="520" controls loop>
+        your browser does not support the video tag.
+    </video>
+
+    <!--poster-->
+    <video src="sample-5s-360p.mp4" width="880" height="520" controls poster="i2.jpg">
+        your browser does not support the video tag. 
+    </video>   
+
+    <!--preload-->
+    <!--none: dont preload; load only when user starts playing-->
+    <!--metdata: load only the information like duration,dimensions etc.-->
+    <!--auto: automatic: browser load video immediately-->
+
+    <video src="sample-5s-360p.mp4" width="880" height="520" controls poster="i2.jpg" muted preload="none" controls>
         your browser does not support the video tag.
     </video>
 
