@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text overflow and wrapping</title>
+    <style>
+        h1{
+            background-color: blanchedalmond;
+            /* bg-color:blanchedalmond;  Tailwind CSS */
+        }
+        p{
+            white-space: nowrap;
+        }
+        .container{
+            width: 80px;
+            height:27px;
+            background-color: aquamarine;
+        }
+        .container-visible {
+            overflow: visible;
+        }
+        .container-auto {
+            overflow: auto;
+        }
+        .container-hidden {
+            overflow: hidden;
+        }
+        .container-scroll {
+            overflow: scroll;
+        }
+
+    </style>
+</head>
+<body>
+    <p>Text Color and background</p>
+    <p>Background-color, color</p>
+    <h1>Heading 1</h1>
+    <p class="container container-visible">This is Paragraph 1</p>
+    <p class="contanier container-auto">This is Paragraph 2</p>
+    <p class="container container-hidden">This is Paragraph 1</p>
+    <p class="container container-scroll">This is Paragraph 1</p>
+</body>
+</html>
