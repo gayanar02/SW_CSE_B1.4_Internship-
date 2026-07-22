@@ -10,5 +10,5 @@
 // Non-primitive data types : are more complex and stored by references
 // 1. Object: to store collections of key-value pairs
 // 2. Array: special type of object for storing ordered lists
-// 3. Function: are also considered as objects
+// 3. Function: are also considered as objects. 
 
