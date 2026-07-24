@@ -1,0 +1,94 @@
+/* Universal Selector */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/*CSS Variables*/
+
+:root{
+    --main-color: pink;
+    --nav-color: aqua;
+    --bg-color: rgb(241, 207, 241);
+    --text-color: rgb(27, 2, 11);
+    --box-color: rgb(206, 192, 197);
+    --font: lucida sans;
+}
+
+/*Element Selector*/
+body{
+    font-family: var(--font);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+/* Navbar*/
+header{
+    background-color: var(--nav-color);
+    padding: 15px;
+    color: black ;
+}
+
+nav ul{
+    color:black;
+}
+
+nav ul li{
+    display: inline;
+    margin: 10px;
+    color:black;
+}
+
+/*Descendant Selector*/
+nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+/*ID Selector */
+#hero{
+    background-color: var(--main-color);
+    color: rgb(12, 12, 12);
+    padding: 30px;
+}
+
+
+/*Anothersection*/
+#about{
+    background-color: var(--box-color);
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px var(--shadow-color);
+}
+/*Descendant Selector*/
+#about p{
+    margin-top: 10px;
+}
+
+/*Class Selector*/
+.highlight{
+    color:brown;
+    font-weight: bold;
+}
+
+/*Projects*/
+#projects{
+    margin: 20px;
+    padding: 15px;
+}
+
+#projects article{
+    background-color: var(--box-color);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 4px solid var(--main-color);
+}
+/* Footer*/
+footer{
+    background-color: var(--nav-color);
+    color: rgb(14, 1, 1);
+    text-align: center;
+    padding: 10px;
+}
