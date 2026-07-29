@@ -1,29 +1,59 @@
-const name="Gayana"
+import Button from './components/FunctionalComponent'
+import { LeftArrow,RightArrow } from "./components/FunctionalComponentTwo";
+
+import ProfileList from "./components/props";
+import InfoBoxDemo from "./components/props2";
+
+import './App.css'
+
+import Counter from "./components/State";
+import ToggleText from "./components/StateTwo";
+import NameInput from "./components/StateThree";
+
+import ClickDemo from "./components/EventHandling";
+import FormDemo from "./components/EventHandlingTwo";
+import ActionButtons from "./components/EventHandlingThree";
+
+
+const name = "Gayana";
 const isLoggedIn = false;
+
 function App() {
-   return (
-    // react fragments
+ 
+  return (
+    // React Fragments
     <>
-    {/*jsx rule 1: return one parent element*/}
-    <h1>Hello</h1>
-    <p>Byeeee</p>
+      {/* JSX Rule 1: Return one parent element */}
+      <h1>Hello</h1>
+      <p>Hello again</p>
 
-    {/*jsx rule 2: every tag must be closed properly */}
-    <p>Error</p>
-    <input type="text"/>
+      {/* JSX Rule 2: Every tag must be closed properly */}
+      <p>Error</p>
+      <input type="text" />
 
-    {/*jsx rule 3: use camelcase for attributes */}
-    <button onClick onSubmit>Click</button>
+      {/* JSX Rule 3: use camelCase for attributes */}
+      <button onClick onSubmit> Click </button>
 
-    {/*jsx rule 4: Embedding javascript with curly */}
-    <h3>Hello, {name}</h3>
+      {/* JSX Rule 4: Embedding JavaScript with curly braces */}
+      <h3>Hello, {name}</h3>
 
-    {/*jsx rule 5: use expressions, not statements */}
-    
+      {/* JSX Rule 5: use expressions, not statements */}
+      <p>{isLoggedIn ? "Welcome back" : "Please Login"}</p>
 
+      <Button />
+      <LeftArrow />
+      <RightArrow />
 
+      <ProfileList />
+      <InfoBoxDemo />
 
-    
+      <Counter />
+      <ToggleText />
+      <NameInput />
+      
+      <ClickDemo/>
+      <FormDemo/>
+      <ActionButtons/>
     </>
     
   )
