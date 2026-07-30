@@ -8,6 +8,8 @@ import ThemedProviderDemo from "./components/HookThree";
 import SimpleNameForm from "./components/FormOne";
 import SignupForm from "./components/FormTwo";
 import ValidatedForm from "./components/FormThree";
+import GitHubUsersList from "./components/FetchingData";
+import GitHubProfile from "./components/FetchingDataTwo";
 function App() {
   
 
@@ -22,6 +24,8 @@ function App() {
       <SimpleNameForm />
       <SignupForm />
       <ValidatedForm />
+      <GitHubUsersList />
+      <GitHubProfile />
     </>
   )
 }
