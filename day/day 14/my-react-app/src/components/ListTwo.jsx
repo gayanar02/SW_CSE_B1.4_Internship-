@@ -1,8 +1,8 @@
 function UserList() {
     const users = [
         {id: 1, name: "Gayana",role:"developer"},
-        {id: 1, name: "Kuchiii",role:"Artist"},
-        {id: 1, name: "hemuuu",role:"Dancer"},
+        {id: 2, name: "Kuchiii",role:"Artist"},
+        {id: 3, name: "hemuuu",role:"Dancer"},
     ];
     return(
         <div ClassName="list-box">
