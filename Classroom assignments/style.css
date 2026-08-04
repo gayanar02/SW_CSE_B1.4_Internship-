@@ -8,11 +8,11 @@
 /*CSS Variables*/
 
 :root{
-    --main-color: pink;
-    --nav-color: aqua;
-    --bg-color: rgb(241, 207, 241);
+    --main-color: mediumslateblue;
+    --nav-color: cornflowerblue;
+    --bg-color: white;
     --text-color: rgb(27, 2, 11);
-    --box-color: rgb(206, 192, 197);
+    --box-color: honeydew;
     --font: lucida sans;
 }
 
